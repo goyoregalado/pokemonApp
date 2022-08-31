@@ -1,6 +1,3 @@
-import { json } from "stream/consumers";
-
-
 const toggleFavorite = ( id: number ) => {
 
     let favorites: number[] = JSON.parse(localStorage.getItem('favorites') || '[]');
